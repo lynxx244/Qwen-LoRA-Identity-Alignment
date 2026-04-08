@@ -5,17 +5,14 @@
 
 ---
 
-## 🚀 快速开始 (Quick Start)
-
-### 1. 环境准备
+## 🚀 快速开始 (Quick Start) 环境准备
 确保您的机器已安装 Python 3.8+ 和 CUDA 环境，执行以下命令安装 LLaMA-Factory：
 
 ```bash
 git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
 cd LLaMA-Factory
 pip install -e ".[metrics,bitsandbytes]"
-
-## 🛠️ 核心技术栈
+### 🛠️ 核心技术栈
 - **基础模型:** Qwen/Qwen2.5-7B-Instruct
 - **微调框架:** LLaMA-Factory (HuggingFace, PEFT)
 - **训练技术:** LoRA (Low-Rank Adaptation), 半精度训练 (FP16), 梯度累积 (Gradient Accumulation)
