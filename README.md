@@ -7,8 +7,9 @@
 
 ## 🚀 快速开始 (Quick Start)
 
-## 1. 环境准备
+### 1. 环境准备
 确保您的机器已安装 Python 3.8+ 和 CUDA 环境，执行以下命令安装 LLaMA-Factory：
+
 ```bash
 git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
 cd LLaMA-Factory
