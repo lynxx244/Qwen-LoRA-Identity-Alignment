@@ -16,6 +16,15 @@
 2. **克服灾难性遗忘与幻觉：** 针对极小样本数据集，动态调整学习率至 `2e-4` 并进行 `epochs=40` 的过拟合训练，成功将 Loss 从 3.35 收敛至 0.45，实现 100% 身份对齐。
 3. **网络链路优化：** 配置 `USE_MODELSCOPE_HUB=1` 环境变量，解决跨国拉取 HuggingFace 权重的网络超时问题。
 
+## 🚀 快速开始 (Quick Start)
+
+### 1. 环境准备
+本项目依赖 LLaMA-Factory 框架。请确保您的机器已安装 Python 3.8+ 和 PyTorch，并执行以下命令安装依赖：
+```bash
+git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
+cd LLaMA-Factory
+pip install -e ".[metrics,bitsandbytes]"
+
 ## 📂 仓库结构
 - `mydataset.json` : 用于认知重塑与知识注入的多轮对话数据集。
 - `train_lora.sh` : SFT 训练启动脚本（包含所有核心超参数配置）。
