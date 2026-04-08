@@ -93,7 +93,8 @@ bash test_chat.sh
 
 微调后，模型成功识别开发者身份，并能根据预设语境进行准确回复。
 <img width="953" height="480" alt="result0" src="https://github.com/user-attachments/assets/5fea4e23-2755-420c-afbe-b0b3a9fde5e8" />
-<img width="953" height="480" alt="result0" src="https://github.com/user-attachments/assets/ba240999-a4d4-4459-8bad-f4e46db509a6" />
+<img width="1203" height="325" alt="train_result" src="https://github.com/user-attachments/assets/6c22f904-d036-4563-8d3c-f89d4af73614" />
+
 
 
 
