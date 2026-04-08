@@ -18,7 +18,7 @@
 
 ## 🚀 快速开始 (Quick Start)
 
-### 1. 环境准备
+###  环境准备
 本项目依赖 LLaMA-Factory 框架。请确保您的机器已安装 Python 3.8+ 和 PyTorch，并执行以下命令安装依赖：
 ```bash
 git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
