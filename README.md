@@ -14,7 +14,6 @@
 git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
 cd LLaMA-Factory
 pip install -e ".[metrics,bitsandbytes]"
-<!-- end list -->
 
 ## 2. 数据集配置 (关键步骤)
 
