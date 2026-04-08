@@ -72,7 +72,6 @@ bash test_chat.sh
 ## 📂 仓库结构说明
 
 ```text
-├── assets/                 # 实验结果截图
 ├── .gitignore              # Git 忽略配置
 ├── LICENSE                 # MIT 开源协议
 ├── README.md               # 项目说明文档
