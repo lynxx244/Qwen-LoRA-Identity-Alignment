@@ -11,7 +11,8 @@
 确保您的机器已安装 Python 3.8+、CUDA 环境及相关的显卡驱动，执行以下命令安装核心框架：
 
 ```bash
-git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
+git clone https://github.com/hiyouga/LLaMA-Factory.git
+https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[metrics,bitsandbytes]"
 ```
