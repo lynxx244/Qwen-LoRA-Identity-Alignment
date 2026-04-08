@@ -23,6 +23,9 @@
 
 
 ## 🎯 效果展示
-<img width="1127" height="166" alt="loss_value" src="https://github.com/user-attachments/assets/be64e841-4db0-4cf6-ac8e-640fe2dfd34c" />
+<img width="1127" height="166" alt="loss_value" src="https://github.com/user-attachments/assets/be64e841-4db0-4cf6-ac8e-640fe2dfd34c" />chu
+##图一为初步结果，图二为进一步训练结果
+<img width="1223" height="639" alt="image" src="https://github.com/user-attachments/assets/6249ac74-a8ee-43d5-9bb8-6a872dfa40e1" />
+
 
 <img width="1203" height="325" alt="train_result" src="https://github.com/user-attachments/assets/323a1e0a-7eb4-4cdd-a72a-967ad3650be3" />
