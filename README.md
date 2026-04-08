@@ -15,7 +15,7 @@ git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyo
 cd LLaMA-Factory
 pip install -e ".[metrics,bitsandbytes]"
 
-### 2. 数据集配置 (关键步骤)
+## 2. 数据集配置 (关键步骤)
 
 1.  将本仓库中的 `mydataset.json` 拷贝至 LLaMA-Factory 的 `data/` 目录下。
 2.  **必须要修改** `data/dataset_info.json` 文件，在其中追加以下注册信息，否则框架无法识别数据：
