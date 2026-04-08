@@ -86,10 +86,17 @@ bash test_chat.sh
 ### 1\. 训练损失 (Loss) 收敛曲线
 
 通过观察 Loss 曲线，模型在训练初期迅速捕捉到指令特征，并在 40 轮迭代内保持稳定下降。
+<img width="1127" height="166" alt="loss_value" src="https://github.com/user-attachments/assets/674df42e-5b4d-42fa-9d22-977f27c54895" />
+
 
 ### 2\. 推理对话测试
 
 微调后，模型成功识别开发者身份，并能根据预设语境进行准确回复。
+<img width="953" height="480" alt="result0" src="https://github.com/user-attachments/assets/5fea4e23-2755-420c-afbe-b0b3a9fde5e8" />
+<img width="953" height="480" alt="result0" src="https://github.com/user-attachments/assets/ba240999-a4d4-4459-8bad-f4e46db509a6" />
+
+
+
 
 ## ⚖️ 开源协议
 
