@@ -1,9 +1,18 @@
-# Qwen-LoRA-Identity-Alignment
-基于 LLaMA-Factory 的 Qwen 7B 模型指令微调与认知对齐实战”。
 # 🚀 基于 LLaMA-Factory 的 Qwen2.5-7B 指令微调与认知对齐实战
 
 ## 📝 项目简介
-本项目基于 LLaMA-Factory 框架，在有限算力（单卡 24GB 显存 / RTX 3050Ti 模拟测试）环境下，完成了开源大模型 Qwen2.5-7B 的 LoRA 指令微调。通过构建定制化数据集，成功实现了模型的“身份认知对齐（Identity Alignment）”与垂直领域知识注入。
+本项目通过 LoRA 微调技术，实现了对 Qwen2.5-7B 模型的人格重塑与垂直领域知识注入。通过调整优化器步长与学习率，成功将训练 Loss 从 3.35 降低至 0.45。
+
+---
+
+## 🚀 快速开始 (Quick Start)
+
+## 1. 环境准备
+确保您的机器已安装 Python 3.8+ 和 CUDA 环境，执行以下命令安装 LLaMA-Factory：
+```bash
+git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
+cd LLaMA-Factory
+pip install -e ".[metrics,bitsandbytes]"
 
 ## 🛠️ 核心技术栈
 - **基础模型:** Qwen/Qwen2.5-7B-Instruct
@@ -16,14 +25,6 @@
 2. **克服灾难性遗忘与幻觉：** 针对极小样本数据集，动态调整学习率至 `2e-4` 并进行 `epochs=40` 的过拟合训练，成功将 Loss 从 3.35 收敛至 0.45，实现 100% 身份对齐。
 3. **网络链路优化：** 配置 `USE_MODELSCOPE_HUB=1` 环境变量，解决跨国拉取 HuggingFace 权重的网络超时问题。
 
-## 🚀 快速开始 (Quick Start)
-
-###  环境准备
-本项目依赖 LLaMA-Factory 框架。请确保您的机器已安装 Python 3.8+ 和 PyTorch，并执行以下命令安装依赖：
-```bash
-git clone [https://github.com/hiyouga/LLaMA-Factory.git](https://github.com/hiyouga/LLaMA-Factory.git)
-cd LLaMA-Factory
-pip install -e ".[metrics,bitsandbytes]"
 
 ## 📂 仓库结构
 - `mydataset.json` : 用于认知重塑与知识注入的多轮对话数据集。
