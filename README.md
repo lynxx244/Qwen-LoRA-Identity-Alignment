@@ -20,7 +20,7 @@
 - `mydataset.json` : 用于认知重塑与知识注入的多轮对话数据集。
 - `train_lora.sh` : SFT 训练启动脚本（包含所有核心超参数配置）。
 - `test_chat.sh` : 本地 CLI 对话推理脚本。
-- `assets/` : 存放训练 Loss 曲线及最终对话效果截图。
+
 
 ## 🎯 效果展示
 <img width="1127" height="166" alt="loss_value" src="https://github.com/user-attachments/assets/be64e841-4db0-4cf6-ac8e-640fe2dfd34c" />
