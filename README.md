@@ -86,7 +86,7 @@ bash test_chat.sh
 
 ### 1. 训练损失（Loss）收敛曲线
 
-模型在训练初期迅速捕捉指令特征，并在 40 轮迭代内保持稳定下降。
+模型在训练初期迅速捕捉指令特征，并在 40 轮迭代内保持稳定下降1。
 
 <img width="1127" height="166" alt="loss_value" src="https://github.com/user-attachments/assets/674df42e-5b4d-42fa-9d22-977f27c54895" />
 
